@@ -1,0 +1,8 @@
+name: RegListeners
+version: '${project.version}'
+main: ntdi.world.reglisteners.RegListeners
+api-version: 1.18
+prefix: RegList
+authors: [ Ntdi ]
+description: Register all your listeners with one command!
+website: ntdi.world
