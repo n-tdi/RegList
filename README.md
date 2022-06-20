@@ -41,7 +41,7 @@ To get RegList, you can get it from [JitPack](https://jitpack.io/#professional-t
     </dependencies>
 ```
 
-Replace Tag with the current release version below
+Replace `Tag` with the current release version below
 
 [![](https://jitpack.io/v/professional-tdi/RegList.svg)](https://jitpack.io/#professional-tdi/RegList)
 
