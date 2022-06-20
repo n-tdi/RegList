@@ -14,21 +14,12 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
 public final class RegListeners extends JavaPlugin {
-
-    private static RegListeners regListeners;
-
-    @Override
-    public void onLoad() {
-        regListeners = this;
-    }
-
-
     /**
      * Registers all listeners inside your plugin.
      *
      * @param plugin Your plugin
      */
-    public void registerListeners(Plugin plugin) throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+    public static void registerListeners(Plugin plugin) throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         for (Class<? extends Listener> listener : getExtendingClasses(plugin, Listener.class)) {
             plugin.getServer().getPluginManager().registerEvents(listener.getConstructor().newInstance(), plugin);
         }
