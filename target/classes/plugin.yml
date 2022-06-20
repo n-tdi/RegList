@@ -1,8 +1,0 @@
-name: RegListeners
-version: '1.0'
-main: ntdi.world.reglisteners.RegListeners
-api-version: 1.18
-prefix: RegList
-authors: [ Ntdi ]
-description: Register all your listeners with one command!
-website: ntdi.world
